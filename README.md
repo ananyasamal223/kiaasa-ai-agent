@@ -35,7 +35,7 @@ Tests cover shopping constraints, separate sessions, provider failures, cart sta
 
 ## Tech-team integration
 
-Read [INTEGRATION.md](INTEGRATION.md) for endpoint examples and merchant-side work. Read [DEPLOYMENT.md](DEPLOYMENT.md) for Docker/HTTPS and operational checks. See [SECURITY.md](SECURITY.md) for configuration and reporting.
+Read [INTEGRATION.md](INTEGRATION.md) for endpoint examples and merchant-side work. Read [DEPLOYMENT.md](DEPLOYMENT.md) for Docker/HTTPS and operational checks. See [SECURITY.md](SECURITY.md) for configuration and reporting. [PAGE_MAP.md](PAGE_MAP.md) lists the frontend pages and where their links go.
 
 The frontend can be hosted under a same-origin path such as /assistant/ with its /assistant/api/ requests reverse-proxied to this app's /api/. For a separate origin, explicitly allow the website origin using ALLOWED_ORIGINS. Do not use wildcard credentialed CORS.
 
